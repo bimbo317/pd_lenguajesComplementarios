@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: navy;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+}
+.hijo{
+    text-align: center;
+}
+
+.tarjeta{
+    display: inline-flex;
+}
