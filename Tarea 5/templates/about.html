@@ -1,0 +1,20 @@
+{% extends "layout.html" %}  <!-- declaro de donde traigo la plantilla -->
+
+{% block content %}
+<div class="principal">
+  <div class="hijo">
+    <h1>About Potrero Digital</h1>
+    <div class="card tarjeta" style="width: 18rem">
+      <img src="{{ url_for('static', filename='img/conejito.jpg') }}" class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <p class="card-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia aperiam nulla molestiae rem maiores exercitationem, placeat vel dolorum sapiente alias deleniti repudiandae animi, fuga molestias dicta aspernatur expedita dolores error!
+        </p>
+      </div>
+    </div>
+    <div>
+      <a href="{{ url_for('home')}}" class="btn btn-outline-success2 my-2 my-sm-0">Go Home</a>
+    </div>
+  </div>
+</div>
+{% endblock%}
